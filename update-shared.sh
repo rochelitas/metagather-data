@@ -10,6 +10,8 @@ if [[ ! -d "$vars" ]]; then
   exit 1
 fi
 
+$base/sync.sh
+
 src=$base/GatherMate.lua
 dst=$vars/GatherMate.lua
 
