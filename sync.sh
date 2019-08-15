@@ -1,6 +1,7 @@
 #! /bin/bash
 base=$(dirname $(readlink -f $0))
 cd $base
+git branch
 git fetch --all
 git pull
 
