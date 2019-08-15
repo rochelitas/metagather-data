@@ -3,7 +3,7 @@ set -e
 set -x
 
 base=$(dirname $(readlink -f $0))
-vars=$(readlink -f $base/../wow-sirus-shared/SavedVariables)
+vars=$(readlink -f $base/../shared/SavedVariables)
 
 if [[ ! -d "$vars" ]]; then
   echo "directory SavedVariables hasn't found." 1>&2
