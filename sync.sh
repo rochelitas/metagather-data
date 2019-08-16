@@ -1,7 +1,7 @@
 #! /bin/bash
 base=$(dirname $(readlink -f $0))
 cd $base
-branch=$(git branch | awk '/^\* /{print gensub(/^../, "", $0);}')
+branch=$(git branch | awk '/^\* /{print gensub(/^../, "", 1, $0);}')
 git fetch --all
 git pull origin $branch
 
