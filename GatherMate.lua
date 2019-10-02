@@ -1,11 +1,16 @@
 
 GatherMateDB = {
 	["profileKeys"] = {
+		["Bomymblpok - Andorhal - No-Risk"] = "Default",
+		["Cmapuk - Andorhal - No-Risk"] = "Default",
 		["Hexpucmb - Andorhal - No-Risk"] = "Default",
 		["Houndhunter - Andorhal - No-Risk"] = "Default",
 		["Kocopykuu - Andorhal - No-Risk"] = "Default",
 		["Kocou - Andorhal - No-Risk"] = "Default",
+		["Koekakep - Andorhal - No-Risk"] = "Default",
 		["Koekakep - Darkmoon - Season IV"] = "Default",
+		["Macmep - Andorhal - No-Risk"] = "Default",
+		["Pacmpena - Andorhal - No-Risk"] = "Default",
 		["Pacxepamop - Andorhal - No-Risk"] = "Default",
 		["Pakema - Andorhal - No-Risk"] = "Default",
 		["Taypak - Andorhal - No-Risk"] = "Default",
@@ -2011,8 +2016,10 @@ GatherMateTreasureDB = {
 		[29931979] = 504,
 	},
 	[48] = {
+		[31376216] = 502,
 		[31386220] = 502,
 		[49744264] = 502,
+		[77175981] = 502,
 	},
 	[49] = {
 		[15047311] = 504,
